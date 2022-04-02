@@ -43,3 +43,46 @@ h1 + p {
 /* LAB: Añade un estilo para que los enlaces no visitados sean color rosa. */
 
 /* LAB: Añade un estilo para que los enlaces visitados sean color verde. */
+
+h1 {
+    color: red;
+}
+
+p {
+    color: green;
+  }
+
+  p, li {
+    color: green;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+  }
+
+
+
+  li em {
+    color: rebeccapurple;
+}
+
+
+
+h1 + p {
+    font-size: 200%;
+}
+
+
+
+
+p span {
+    color: red; 
+}
+
+
+
+
+a:visited {
+    color: green;
+}
